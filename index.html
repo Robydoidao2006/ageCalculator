@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Snake Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+        
+        <div class='row'>
+            <div class='col-lg-3'>
+            </div>
+
+            <div class='col-lg-6 text-center' >
+                    <h1>Age calculator</h1>
+                    <p>Enter your name and age and find out how long you have been around for!</p>
+
+
+                <form id='form' method="POST"">
+                    <input id='userName' type="text" placeholder="name">
+                    <input id='userAge' type="text" placeholder="age">
+                    <button id='submit' type="button" onclick="display();" value='clickme'>Go</button>
+                </form>
+                
+               
+
+                <h3>Did you know?</h3>
+                <p>The average person in the USA live's up to 80 years old</p>
+                
+                <h3 id="youKnow"></h3>
+
+                <div id="yearResult"></div>
+                <div id="hourResult"></div>
+                <div id="minuteResult"></div>
+                <div id="secondResult"></div>
+
+            </div>
+
+            <div class='col-lg-3'>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
