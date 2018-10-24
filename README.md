@@ -6,9 +6,9 @@ Test the project.
 https://robydoidao2006.github.io/ageCalculator/
 
 V.2.1 ~ Date: 10/24/2018.
-** Minor visual improvements. **
+###### Minor visual improvements.
 - all the information is being display in a single line.
-** Minor technical improvements. **
+###### Minor technical improvements.
 - code clean up.
 - concatinating.
 ![alt text](assets/images/github/v2-1.jpg)
