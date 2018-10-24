@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-        
         <div class='row'>
             <div class='col-lg-3'>
             </div>
@@ -17,37 +16,24 @@
                     <h1>Age calculator</h1>
                     <p>Enter your name and age and find out how long you have been around for!</p>
 
-
                 <form id='form' method="POST"">
                     <input id='userName' type="text" placeholder="name">
                     <input id='userAge' type="text" placeholder="age">
                     <button id='submit' type="button" onclick="display();" value='clickme'>Go</button>
                 </form>
                 
-               
-
                 <h2>Did you know?</h2>
                 <p>Acording to the Central Intelligence Agency AKA (CIA) </p>
                 <p>The average life expectancy for US citizens its 80 years</p>
-
-                
                 
                 <h3 id="youKnow"></h3>
-
-                <div id="yearResult"></div>
-                <div id="hourResult"></div>
-                <div id="minuteResult"></div>
-                <div id="secondResult"></div>
-
+                <!-- display time on earth -->
+                <div id="totalResult"></div>
+             
                 <h3 id="youHaveYear"></h3>
-
-                <div id="youHaveDay"></div>
-                <div id="youHaveHour"></div>
-                <div id="youHaveMinute"></div>
-                <div id="youHaveSecond"></div>
-
-
-
+                <!-- display time left on average -->
+                <div id="youHaveleft"></div>
+              
 
             </div>
 
