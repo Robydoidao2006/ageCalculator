@@ -1,15 +1,14 @@
 
 Application that will take user input and calculate how long that person has been around & how much time left the user has
-base on the average person in the USA and it will display it in days, hours, minutes & seconds.
+base on the average livespan in the USA. The information will be display in days, hours, minutes & seconds.
 
 Test the project.
 https://robydoidao2006.github.io/ageCalculator/
 
-
 V.2.1 ~ Date: 10/24/2018.
-- Minor visual improvements.
+- ** Minor visual improvements. **
 - all the information is being display in a single line.
-- Minor technical improvements. 
+- ** Minor technical improvements. **
 - code clean up.
 - concatinating.
 ![alt text](assets/images/github/v2-1.jpg)
